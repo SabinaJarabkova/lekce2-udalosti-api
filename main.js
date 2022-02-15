@@ -7,6 +7,7 @@ nadpis.classList.add('zluty');
 nadpis.classList.remove('zluty');
 
 let ctverecek = document.querySelector('div.zluty');
+ctverecek.classList.add('ctverecek');
 
 //nadpis.classList.add('ctverecek');
 
@@ -34,5 +35,16 @@ function zmenBarvu() {
 }
 
 function zvacseniePisma() {
+  let pismo = document.querySelector('pismo');
+}
 
+//moze byt pomenovane aj udalost, je to na mne - v zatvorke
+function stiskKlavesy(event) {
+  console.log(event);
+}
+
+function startAudio() {
+  let audioFile = document.getElementById('zvukovaStopa');
+  console.log('Zappinam piesen');
+  audioFile.play();
 }
