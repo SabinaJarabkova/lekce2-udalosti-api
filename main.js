@@ -8,7 +8,7 @@ nadpis.classList.remove('zluty');
 
 let ctverecek = document.querySelector('div.zluty');
 
-nadpis.classList.add('ctverecek');
+//nadpis.classList.add('ctverecek');
 
 let pocitadlo = 0;
 function priNajetiNaCtverec() {
@@ -21,3 +21,18 @@ function zmenStyl() {
   nadpis.classList.toggle('zeleny');
 }
 
+function tucnePismo() {
+  let odstavec = document.querySelector('p');
+  odstavec.style.fontWeight = 'bold';
+}
+
+function zmenBarvu() {
+  let barva = document.querySelector('.tlacidlo');
+  //barva.classList.add('cervena');
+  barva.classList.toggle('cervena');
+  //barva.style.color = 'red';
+}
+
+function zvacseniePisma() {
+
+}
