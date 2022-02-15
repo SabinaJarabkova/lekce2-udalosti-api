@@ -16,3 +16,8 @@ function priNajetiNaCtverec() {
   pocitadlo = pocitadlo + 1;
   // alebo pocitadlo++
 }
+
+function zmenStyl() {
+  nadpis.classList.toggle('zeleny');
+}
+
