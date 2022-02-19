@@ -13,21 +13,26 @@
 
 	<div onmouseout="priNajetiNaCtverec()" class="ctverecek zluty"></div>
 
-	<div class="ctverecek zeleny"></div>
+  <img class="obrazek" src="obrazky/kocka.jpg">
 
-	<img class="obrazek" src="obrazky/kocka.jpg">
+	<button class="tlacitko">Čudlajs</button><br>
 
-	<button class="tlacitko">Čudlajs</button>
+  <p onmouseover="tucnePismo()" onmouseout="normalnePismo()" class="odstavec">V elipse spí lev.</p><br>
 
-  <p onmouseover="tucnePismo()" class="odstavec">V elipse spí lev.</p>
+  <button onclick="zmenBarvu()" class="tlacidlo">červený po kliknutí</button><br>
 
-  <button onclick="zmenBarvu()" class="tlacidlo">červený po kliknutí</button>
+  <button onclick="zvacseniePisma()" class="tlacidlo">Větší po kliknutí</button><br>
 
-  <button onlick="zvacseniePisma()" class="pismo">Větší po kliknutí</button>
 
-	<audio class="tlacitko" id="zvukovaStopa" src="audio/dingdingdang.mp3" preload="auto"></audio>
+  <h2>Audio ovladač</h2>
+	<audio id="zvukovaStopa" src="audio/dingdingdang.mp3" preload="auto"></audio>
 
-  <button onclick="startAudio()">Zapni audio</button>
+  <button onclick="startAudio()" class="audiotlacitko">Prehraj audio</button>
+  <button onclick="pauseAudio()" class="audiotlacitko">Pauzni audio</button>
+  <button onclick="volMin()" class="audiotlacitko">Nízka hlasitosť</button>
+  <button onclick="volNorm()" class="audiotlacitko">Normálna hlasitosť</button>
+  <button onclick="volMax()" class="audiotlacitko">Vysoká hlasitosť</button>
+  <button onclick="presunNaZaciatok()" class="audiotlacitko">Presuň na začiatok</button>
 
   <script type="text/javascript" src="main.js"></script>
 

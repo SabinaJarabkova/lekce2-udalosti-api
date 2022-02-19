@@ -67,15 +67,16 @@ li {
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	text-shadow: 1px 1px 0px #c5376d;
+	text-shadow: 1px 1px 0px limegreen;
 	padding: 10px 30px;
 	position: relative;
 	cursor: pointer;
 	border: none;
-	background: #f78db5;
-	background-image: linear-gradient(bottom, #f78db5 0%, #ef5a92 100%);
+	background: yellowgreen;
+	background-image: linear-gradient(bottom, yellowgreen 0%, #ef5a92 100%);
 	border-radius: 5px;
-	box-shadow: 0px 5px 0px 0px #c5376d, 0px 10px 5px #999;
+	box-shadow: 0px 5px 0px 0px limegreen, 0px 10px 5px #999;
+  margin-bottom: 50px;
 }
 
 .tlacitko:active {
@@ -90,8 +91,8 @@ li {
 
 .ctverecek {
 	margin: 50px 0;
-	width: 200px;
-	height: 200px;
+	width: 50px;
+	height: 50px;
 	font-family: "Montserrat", sans-serif;
 	font-size: 120px;
 	font-weight: bold;
@@ -123,9 +124,48 @@ li {
 }
 
 .odstavec {
-font-size: 16px;
+  border: 2px solid blue;
+  padding: 10px;
+  display: inline-block;
+  font-size: 16px;
+  color: blue;
+  border-radius: 30px;
+  background-color: antiquewhite;
 }
 
 .cervena {
   color: red;
+}
+
+.tlacidlo {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 20px 0;
+  background-color: rgb(251, 251, 99);
+  border: 2px solid teal;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0;
+}
+
+.tlacidlo:active {
+  font-weight: bold;
+}
+
+.audiotlacitko {
+  display: inline-block;
+	font-family: Monserrat, sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: blue;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 1px 1px 0px cyan;
+	padding: 10px 30px;
+	position: relative;
+	cursor: pointer;
+	border: 1px solid blue;
+	background: blanchedalmond;
+	border-radius: 5px;
+	box-shadow: 0px 5px 5px 0px cyan, 0px 10px 5px #999;
+  margin: 20px 5px;
 }
